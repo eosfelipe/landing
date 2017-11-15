@@ -1,0 +1,51 @@
+<header role="header">
+  <hgroup>
+
+    <!-- logog -->
+
+    <h1> <a href="#" title="Pixicon">RQ BAUEN</a> </h1>
+
+    <!-- logog -->
+
+    <!-- nav -->
+
+    <nav role="nav" id="header-nav" class="nav navy">
+      <ul class="nav nav-tabs">
+        <li routerLinkActive="active">
+          <a data-toggle="tab" [routerLink]="['home']" title="Countdown">Countdown</a>
+        </li>
+        <li routerLinkActive="active">
+          <a data-toggle="tab" [routerLink]="['introduction']" title="Introduction">introduction</a>
+        </li>
+        <li routerLinkActive="active">
+          <a data-toggle="tab" [routerLink]="['subscribe']" title="Subscribe">Subscribe</a>
+        </li>
+        <li routerLinkActive="active">
+          <a data-toggle="tab" [routerLink]="['contact']" title="Contact">Contact</a>
+        </li>
+      </ul>
+      <div role="socil-icons" class="mobile-social">
+        <li><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </div>
+    </nav>
+
+    <!-- nav -->
+
+    <!-- Socil Icon -->
+
+    <ul role="socil-icons" class="desk-social">
+      <li><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    </ul>
+
+    <!-- Socil Icon -->
+
+  </hgroup>
+  <footer class="desk">
+    <p>&copy; {{ copy }} {{ cliente }} Made with <i class="fa fa-heart" aria-hidden="true"></i> by {{ autor }}</p>
+  </footer>
+</header>
+<footer class="mobile">
+  <p>&copy; {{ copy }} {{ cliente }} Made with <i class="fa fa-heart" aria-hidden="true"></i> by {{ autor }}</p>
+</footer>

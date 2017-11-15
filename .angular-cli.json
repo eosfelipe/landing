@@ -19,9 +19,20 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/css/style.css",
+        "assets/css/bootstrap.min.css",
+        "assets/css/responsive.css",
+        "assets/css/font-awesome.min.css",
+        "assets/css/jquery.fadeshow-0.1.1.min.css",
+        "assets/css/video.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/bootstrap.min.js",
+        "assets/js/background.cycle.js",
+        "assets/js/html5shiv.js",
+        "assets/js/nav-custom.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
