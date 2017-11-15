@@ -19,6 +19,6 @@ export class AppComponent implements OnInit {
     	images: ['assets/images/bg-image.jpg',
     			     'assets/images/bg-image-1.jpg']
     });
-    console.log(background);
+    // console.log(background);
   }
 }
