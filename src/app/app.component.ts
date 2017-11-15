@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
     let background = $(".background").fadeShow({
       correctRatio: true,
       shuffle: true,
-    	speed: 2500,
+    	speed: 3500,
     	images: ['assets/images/bg-image.jpg',
     			     'assets/images/bg-image-1.jpg']
     });
